@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(25deg, #1e205f, #384d81, #4d7ea4, #5fb1c8)}
+
+a:hover {
+    text-decoration: none;
+}
+
+.login-box {
+    position: absolute;
+    background: #f7f7f7;
+    top: 300px;
+    height: 400px;
+    padding: 50px;
+
+}
+.register-box {
+    position: absolute;
+    background: #f7f7f7;
+    top: 150px;
+    height: 600px;
+    padding: 50px;
+
+}
+.form-group .row {
+    margin-left: 5px;
+}
+
+.form-group p {
+    color: #969696;
+}
+
+.form-group input {
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 50px;
+    /*padding: 10px 0;*/
+}
+
+.form-group input:focus {
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #000;
+}
+
+.form-group input[type="submit"] {
+    border-bottom: 1px solid #000;
+    position: absolute;
+    right: 50px;
+    width: 20%;
+}
+
+.form-group input[type="submit"]:hover {
+    border-bottom: 1px solid #7abaff;
+}
+
+.footer {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    right: 20px;
+    overflow: visible;
+    z-index: 99;
+    clear: both;
+    float: right;
+}
+
+.footer a {
+    color: #969696;
+}
